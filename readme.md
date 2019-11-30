@@ -8,6 +8,23 @@ For today's exercise we will debug an Express App! It will be your job to move s
 * run npm install to install packages
 * `createdb schools_mascots_test` & `psql -d schools_mascots_test -f db/schools_mascots.sql` or if you're on Windows (eww), enter your psql shell and fill in your database manually
 * run npm start to start the server
+* I FORGOT TO PLACE `views/index.html`, here's the code for it:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/style.css">
+    <script type="text/javascript" src="/js/script.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <p> This is a mascot database thing </p>
+    <a href="/mascots">Click here to see some of them </a>
+  </body>
+</html>
+```
 
 # 2. Features
 The app needs the following features to work correctly from a user's perspective
